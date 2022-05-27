@@ -89,6 +89,22 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
+        <div
+          id="dablewidget_Pl1wvjoE_x7yYO076"
+          data-widget_id-pc="Pl1wvjoE"
+          data-widget_id-mo="x7yYO076"
+        >
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `(function(d,a){d[a]=d[a]||function(){(d[a].q=d[a].q||[]).push(arguments)};console.log('IFFE execute!')}(window,'dable'));
+                        alert('use script!')
+                        console.log(dable)
+dable('renderWidgetByWidth', 'dablewidget_Pl1wvjoE_x7yYO076');
+`,
+            }}
+          />
+        </div>
       </footer>
     </div>
   );
