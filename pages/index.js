@@ -33,6 +33,18 @@ export default function Home() {
           content="2015-07-17T13:20:00+09:00"
         />
         <meta property="product:availability" content="oos" />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `(function(d,a,b,l,e,_) {
+d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/plugin.min.js';
+_=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+})(window,document,'dable','script');
+dable('setService', 'dable.io');
+dable('sendLog');`,
+          }}
+        />
       </Head>
 
       <main className={styles.main}>
