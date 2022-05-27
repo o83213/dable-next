@@ -97,10 +97,15 @@ export default function Home() {
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{
-              __html: `(function(d,a){d[a]=d[a]||function(){(d[a].q=d[a].q||[]).push(arguments)};console.log('IFFE execute!')}(window,'dable'));
-                        alert('use script!')
-                        console.log(dable)
+              __html: `(function(d,a,b,l,e,_) {
+if(d[b]&&d[b].q)return;d[b]=function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/plugin.min.js';
+_=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+})(window,document,'dable','script');
+dable('setService', 'xinmedia.com/salesfrontier');
+dable('sendLogOnce');
 dable('renderWidgetByWidth', 'dablewidget_Pl1wvjoE_x7yYO076');
+
 `,
             }}
           />
