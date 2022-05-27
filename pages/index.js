@@ -104,9 +104,7 @@ _=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
 })(window,document,'dable','script');
 dable('setService', 'xinmedia.com/salesfrontier');
 dable('sendLogOnce');
-dable('renderWidgetByWidth', 'dablewidget_Pl1wvjoE_x7yYO076');
-
-`,
+dable('renderWidgetByWidth', 'dablewidget_Pl1wvjoE_x7yYO076');`,
             }}
           />
         </div>
