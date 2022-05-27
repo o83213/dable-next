@@ -25,13 +25,9 @@ export default function Home() {
 級大數據的能力，透過記錄用戶的使用行為再次反映到推薦結果中，自動提高
 推薦品質，保證高收益率。"
         />
-        <meta
-          property="dable:image"
-          content="URL of small item im
-age"
-        />
+        <meta property="dable:image" content="/favicon.ico" />
         <meta property="dable:author" content="Dable Reporter" />
-        <meta property="article:section3" content="Dable Taiwan" />
+        <meta property="article:section" content="Dable testing" />
         <meta
           property="article:published_time"
           content="2015-07-17T13:20:00+09:00"
