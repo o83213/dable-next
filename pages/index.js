@@ -41,18 +41,7 @@ age"
           content="2015-07-
 17T13:20:00+09:00"
         />
-        <div itemProp="articleBody">
-          <p>英國恐襲事件反映移民融入難題！</p>
-          <p>
-            恐怖襲擊事件後，英國社會對外來移民排斥的情緒進一步加劇。《這裡面
-            有文化衝突和價值觀對立的深層次原因，也有網路和社交網站煽風點火、推波
-            助瀾的作用。不過，也有英國人公允地認為外來移民對英國是有貢獻的，一些
-            輿論持比較客觀的立場。曼徹斯特炸彈襲擊事件的影響，一方面將進一步堅定
-            英國政府的「脫歐」信念，另一方面，移民政策的收緊也可能引起進一步的反
-            彈。以下為評論全文。
-          </p>
-          <meta property="product:availability" content="oos" />
-        </div>
+        <meta property="product:availability" content="oos" />
       </Head>
 
       <main className={styles.main}>
