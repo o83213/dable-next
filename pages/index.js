@@ -30,7 +30,7 @@ export default function Home() {
         <meta property="article:section" content="Dable testing" />
         <meta
           property="article:published_time"
-          content="2015-07-17T13:20:00+09:00"
+          content="2011-10-05T14:48:00.000Z"
         />
         <meta property="product:availability" content="oos" />
         <script
